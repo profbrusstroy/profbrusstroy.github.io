@@ -1,18 +1,10 @@
-#cheader{
+
+#cheader {
     text-align: center;
 }
+h1 {text-align: center;}
 #logo {
     text-align: left;
 } 
-#topmenu {
-      list-style: none; /*убираем маркеры списка*/
-      margin: 0; /*убираем отступы*/
-      padding-left: 0; /*убираем отступы*/
-    }
-    a {
-      text-decoration: none; /*убираем подчеркивание текста ссылок*/
-    }
-    li {
-      float:left; /*Размещаем список горизонтально для реализации меню*/
-      margin-right:5px; /*Добавляем отступ у пунктов меню*/
-    }
+
+ 
