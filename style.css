@@ -1,10 +1,28 @@
-
-#cheader {
-    text-align: center;
+#cheader{
+  text-align: center
 }
-h1 {text-align: center;}
-#logo {
-    text-align: left;
-} 
-
- 
+#logo{
+  text-align: left;
+}
+#menu1 {text-align: center}
+   #menu1, li {
+    display: inline-block; /* Строчно-блочные элементы */
+    background: #CA181A; /* Цвет фона */
+    margin-right: 3px; /* Расстояние между пунктами меню */
+    -webkit-transform: skewX(-30deg); /* Для Safari и Chrome */
+    -moz-transform: skewX(-30deg); /* Для Firefox */
+    -o-transform: skewX(-30deg); /* Для Opera */
+    -ms-transform: skewX(-30deg); /* Для IE */
+    transform: skewX(-30deg); /* CSS3 */
+   }
+   a {
+    color: #fff; /* Цвет ссылок */
+    display: block; /* Блочный элемент */
+    padding: 5px 15px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    -webkit-transform: skewX(30deg); /* Для Safari и Chrome */
+    -moz-transform: skewX(30deg); /* Для Firefox */
+    -o-transform: skewX(30deg); /* Для Opera */
+    -ms-transform: skewX(30deg); /* Для IE */
+    transform: skewX(30deg); /* CSS3 */
+   }
